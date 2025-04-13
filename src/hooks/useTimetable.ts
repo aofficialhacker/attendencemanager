@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { ScheduledClass } from '@/lib/supabase';
@@ -64,6 +63,34 @@ export const useTimetable = (studentId: string) => {
           end_time: '2023-05-04T15:30:00',
           subject: 'Computer Science',
           teacherName: 'Dr. Davis'
+        },
+        // Friday lectures added here
+        {
+          class_id: '6',
+          teacher_id: 't6',
+          room: 'F101',
+          start_time: '2023-05-05T09:00:00',
+          end_time: '2023-05-05T10:30:00',
+          subject: 'English Literature',
+          teacherName: 'Professor Taylor'
+        },
+        {
+          class_id: '7',
+          teacher_id: 't7',
+          room: 'F202',
+          start_time: '2023-05-05T11:00:00',
+          end_time: '2023-05-05T12:30:00',
+          subject: 'Quantum Physics',
+          teacherName: 'Dr. Martinez'
+        },
+        {
+          class_id: '8',
+          teacher_id: 't8',
+          room: 'F303',
+          start_time: '2023-05-05T14:00:00',
+          end_time: '2023-05-05T15:30:00',
+          subject: 'Modern Physics',
+          teacherName: 'Professor Lee'
         }
       ];
       

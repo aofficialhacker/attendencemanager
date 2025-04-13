@@ -101,6 +101,46 @@ const SAMPLE_STUDENT_TIMETABLE = [
     type: 'Discussion',
     materials: ['Psychology Textbook', 'Research Papers'],
     upcoming_assignments: 'Group presentation next Wednesday'
+  },
+  // Adding Friday lectures for students
+  {
+    class_id: 'c1007',
+    subject: 'Biology',
+    subject_code: 'BIO103',
+    start_time: '2025-04-18T09:30:00',
+    end_time: '2025-04-18T11:00:00',
+    location: 'Science Building 202',
+    teacher: 'Dr. Marcus Lee',
+    color: 'bg-emerald-100 border-emerald-300 text-emerald-800 dark:bg-emerald-900/30 dark:border-emerald-700 dark:text-emerald-300',
+    type: 'Lecture',
+    materials: ['Biology Textbook', 'Lab Notebook'],
+    upcoming_assignments: 'Ecosystems worksheet due Monday'
+  },
+  {
+    class_id: 'c1008',
+    subject: 'Economics',
+    subject_code: 'ECON201',
+    start_time: '2025-04-18T13:00:00',
+    end_time: '2025-04-18T14:30:00',
+    location: 'Business School 104',
+    teacher: 'Prof. Lisa Wong',
+    color: 'bg-indigo-100 border-indigo-300 text-indigo-800 dark:bg-indigo-900/30 dark:border-indigo-700 dark:text-indigo-300',
+    type: 'Seminar',
+    materials: ['Economics Textbook', 'Calculator'],
+    upcoming_assignments: 'Market analysis report due Wednesday'
+  },
+  {
+    class_id: 'c1009',
+    subject: 'Art History',
+    subject_code: 'ART110',
+    start_time: '2025-04-18T15:00:00',
+    end_time: '2025-04-18T16:30:00',
+    location: 'Arts Building Gallery',
+    teacher: 'Dr. Thomas Rivera',
+    color: 'bg-rose-100 border-rose-300 text-rose-800 dark:bg-rose-900/30 dark:border-rose-700 dark:text-rose-300',
+    type: 'Lecture',
+    materials: ['Art History Anthology', 'Sketch Pad'],
+    upcoming_assignments: 'Museum visit reflection due next Friday'
   }
 ];
 
@@ -169,6 +209,46 @@ const SAMPLE_TEACHER_TIMETABLE = [
     type: 'Office Hours',
     notes: 'Student consultations',
     upcoming_deadlines: 'Research proposal deadline'
+  },
+  // Adding Friday lectures for teachers
+  {
+    class_id: 't1006',
+    subject: 'Theoretical Physics',
+    subject_code: 'PHYS410',
+    start_time: '2025-04-18T09:00:00',
+    end_time: '2025-04-18T11:00:00',
+    location: 'Lecture Hall C',
+    students: 22,
+    color: 'bg-emerald-100 border-emerald-300 text-emerald-800 dark:bg-emerald-900/30 dark:border-emerald-700 dark:text-emerald-300',
+    type: 'Lecture',
+    notes: 'String theory discussion',
+    upcoming_deadlines: 'Final paper reviews due Monday'
+  },
+  {
+    class_id: 't1007',
+    subject: 'Department Committee',
+    subject_code: 'ADMIN',
+    start_time: '2025-04-18T12:30:00',
+    end_time: '2025-04-18T14:00:00',
+    location: 'Department Chair Office',
+    students: 0,
+    color: 'bg-gray-100 border-gray-300 text-gray-800 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300',
+    type: 'Meeting',
+    notes: 'Curriculum revision planning',
+    upcoming_deadlines: 'Prepare program review documents'
+  },
+  {
+    class_id: 't1008',
+    subject: 'Graduate Seminar',
+    subject_code: 'PHYS600',
+    start_time: '2025-04-18T15:00:00',
+    end_time: '2025-04-18T17:00:00',
+    location: 'Graduate Seminar Room',
+    students: 8,
+    color: 'bg-indigo-100 border-indigo-300 text-indigo-800 dark:bg-indigo-900/30 dark:border-indigo-700 dark:text-indigo-300',
+    type: 'Seminar',
+    notes: 'Student research presentations',
+    upcoming_deadlines: 'Thesis committee meetings next week'
   }
 ];
 
